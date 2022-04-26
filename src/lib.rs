@@ -827,6 +827,7 @@ bitflags! {
         const PATH_UNLINK_FILE        = 1 << 26;
         const POLL_FD_READWRITE       = 1 << 27;
         const SOCK_SHUTDOWN           = 1 << 28;
+        const FD_EXECUTE              = 1 << 29;
     }
 }
 
